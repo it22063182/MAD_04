@@ -11,10 +11,10 @@
 
     <TextView
         android:id="@+id/addNoteHeading"
-        android:layout_width="367dp"
-        android:layout_height="62dp"
+        android:layout_width="308dp"
+        android:layout_height="88dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="93dp"
+        android:layout_marginTop="60dp"
         android:fontFamily="@font/poppins"
         android:text="Plan your trip here..."
         android:textAllCaps="false"
@@ -24,45 +24,42 @@
 
     <ImageView
         android:id="@+id/saveButton"
-        android:layout_width="100dp"
-        android:layout_height="99dp"
+        android:layout_width="52dp"
+        android:layout_height="51dp"
         android:layout_alignTop="@id/addNoteHeading"
-        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="424dp"
-        android:layout_marginTop="-44dp"
-        android:layout_marginEnd="116dp"
-        android:layout_marginBottom="1111dp"
+        android:layout_marginEnd="6dp"
         android:src="@drawable/baseline_done_24" />
+
+    />
 
     <EditText
         android:id="@+id/titleEditText"
-        android:layout_width="380dp"
-        android:layout_height="69dp"
+        android:layout_width="236dp"
+        android:layout_height="70dp"
         android:layout_below="@id/addNoteHeading"
-        android:layout_marginTop="73dp"
+        android:layout_marginTop="72dp"
         android:background="@drawable/orange_border"
         android:fontFamily="@font/poppins"
         android:hint="Enter destination"
-        android:textColor="@color/black"
         android:maxLines="1"
         android:padding="12dp"
+        android:textColor="@color/black"
         android:textSize="20sp" />
 
     <EditText
         android:id="@+id/contentEditText"
-        android:layout_width="496dp"
-        android:layout_height="510dp"
+        android:layout_width="240dp"
+        android:layout_height="516dp"
         android:layout_below="@id/titleEditText"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="74dp"
         android:background="@drawable/orange_border"
         android:fontFamily="@font/poppins"
         android:gravity="top"
         android:hint="Enter the description"
-        android:textColor="@color/black"
         android:padding="12dp"
         android:textAllCaps="true"
+        android:textColor="@color/black"
         android:textSize="18sp" />
 
 
