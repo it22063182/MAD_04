@@ -15,7 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/poppins"
-        android:text="Add "
+        android:text="kkkk"
         android:textAllCaps="false"
         android:textColor="@color/orange"
         android:textSize="24sp"
