@@ -12,31 +12,33 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/poppins"
-        android:text="Notes."
-        android:layout_marginStart="18dp"
-        android:textColor="@color/orange"
-        android:textSize="24sp"/>
+        android:text="Plan your trip here"
+        android:textColor="#1A36EF"
+        android:textSize="32dp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/notesRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="50dp"
-        android:padding="16dp"/>
+        android:padding="16dp" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/addButton"
-        android:layout_width="89dp"
-        android:layout_height="77dp"
+        android:layout_width="59dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginBottom="7dp"
-        android:backgroundTint="@color/orange"
+        android:layout_marginStart="329dp"
+        android:layout_marginTop="644dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="23dp"
+        android:backgroundTint="@color/blue"
         android:src="@drawable/baseline_add_24"
         app:tint="@color/white" />
 </RelativeLayout>

@@ -15,7 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/poppins"
-        android:text="kkkk"
+        android:text="Plan your trip"
         android:textAllCaps="false"
         android:textColor="@color/orange"
         android:textSize="24sp"
@@ -38,7 +38,7 @@
         android:layout_marginTop="16dp"
         android:background="@drawable/orange_border"
         android:fontFamily="@font/poppins"
-        android:hint="Enter the date"
+        android:hint="Destination"
         android:maxLines="1"
         android:padding="12dp"
         android:textSize="20sp" />
