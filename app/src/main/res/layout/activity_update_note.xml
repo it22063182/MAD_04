@@ -6,6 +6,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bgc"
     tools:context=".UpdateNoteActivity">
 
     <TextView
@@ -16,24 +17,29 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/poppins"
         android:text="Edit Note."
-        android:textColor="@color/orange"
-        android:textSize="24sp" />
+        android:textColor="@color/black"
+        android:textSize="28sp" />
 
     <ImageView
         android:id="@+id/updateSaveButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/baseline_done_24"
-        android:layout_alignParentEnd="true"
+        android:layout_width="65dp"
+        android:layout_height="60dp"
         android:layout_alignTop="@id/editNoteHeading"
-        android:layout_marginEnd="6dp" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="629dp"
+        android:src="@drawable/baseline_done_24" />
 
     <EditText
         android:id="@+id/UpdateTitleEditText"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
         android:layout_below="@id/editNoteHeading"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="12dp"
         android:background="@drawable/orange_border"
         android:fontFamily="@font/poppins"
         android:hint="Enter the title"
@@ -43,16 +49,16 @@
 
     <EditText
         android:id="@+id/UpdateContentEditText"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:hint="Enter the description"
-        android:gravity="top"
-        android:padding="12dp"
-        android:textSize="18sp"
-        android:fontFamily="@font/poppins"
-        android:background="@drawable/orange_border"
+        android:layout_width="300dp"
+        android:layout_height="313dp"
         android:layout_below="@id/UpdateTitleEditText"
-        android:layout_marginTop="12dp"/>
+        android:layout_marginTop="12dp"
+        android:background="@drawable/orange_border"
+        android:fontFamily="@font/poppins"
+        android:gravity="top"
+        android:hint="Enter the description"
+        android:padding="12dp"
+        android:textSize="18sp" />
 
 
 </RelativeLayout>
